@@ -9,7 +9,7 @@
  * to perform that task in a real pipeline. No tools are actually invoked.
  *
  * Trigger: the task explicitly says a webhook is NOT required - polling
- * the GitHub repo on a schedule is sufficient, so this uses pollSCM(). 
+ * the GitHub repo on a schedule is sufficient, so this uses pollSCM(). Test
  */
  
 pipeline {
