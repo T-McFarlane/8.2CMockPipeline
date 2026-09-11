@@ -16,7 +16,7 @@ pipeline {
     agent any
  
     triggers {
-        // Poll the GitHub repository for new commits every 5 minutes.
+        // Poll the GitHub repository for new commits every 1 minutes.
         // (Webhook integration is not required for this task.)
         pollSCM('* * * * * *')
     }
