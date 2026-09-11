@@ -18,7 +18,7 @@ pipeline {
     triggers {
         // Poll the GitHub repository for new commits every 5 minutes.
         // (Webhook integration is not required for this task.)
-        pollSCM('H/2 * * * *')
+        pollSCM('* * * * * *')
     }
  
     stages {
