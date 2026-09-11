@@ -9,7 +9,7 @@
  * to perform that task in a real pipeline. No tools are actually invoked.
  *
  * Trigger: the task explicitly says a webhook is NOT required - polling
- * the GitHub repo on a schedule is sufficient, so this uses pollSCM(). Test
+ * the GitHub repo on a schedule is sufficient, so this uses pollSCM(). 
  */
  
 pipeline {
@@ -18,7 +18,7 @@ pipeline {
     triggers {
         // Poll the GitHub repository for new commits every 5 minutes.
         // (Webhook integration is not required for this task.)
-        pollSCM('H/1 * * * *')
+        pollSCM('H/2 * * * *')
     }
  
     stages {
